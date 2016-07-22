@@ -7,7 +7,7 @@ app.service("TrackerService", ["$http", "UserService", function ($http, UserServ
 
     // Gets all the failure objects for a given user. Get by username
 //        return $http.get(baseUrl + 'failure')
-        return $http.getFails('/api/failure')
+        return $http.get('/api/failure')
             .then(function (response) {
 //            console.log('response ',response.data);
                 return response.data;

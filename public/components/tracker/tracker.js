@@ -26,7 +26,7 @@ app.controller("TrackController", ["$scope", "TrackerService", function ($scope,
             $scope.failures = [];
         };
         
-        TrackerService.getFails()
+        TrackerService.get()
             .then(function (failData) {
                 $scope.failures = failData;
                 $scope.calculateScore();
