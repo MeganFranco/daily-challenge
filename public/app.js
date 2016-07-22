@@ -1,5 +1,5 @@
-var app = angular.module("RejectionApp", ['ngRoute', 'RejectionApp.Auth', 'ngAudio']);
-
+var app = angular.module("RejectionApp", ['ngRoute', 'RejectionApp.Auth', ]);
+//'ngAudio'
 app.config(function ($routeProvider) {
     $routeProvider
         .when("/", {
