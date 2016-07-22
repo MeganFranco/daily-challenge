@@ -12,8 +12,7 @@ app.service("TrackerService", ["$http", "UserService", function ($http, UserServ
 //            console.log('response ',response.data);
                 return response.data;
                     //                self.failures = response.data;
-            })
-    };
+            });
 
     ////Adds failures to DB/////
     this.addFail = function (fail) {
