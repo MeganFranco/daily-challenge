@@ -19,6 +19,12 @@ h2 {
     text-align: center;
 }
 
+.carousel-image {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 /*------NAV BAR-------*/
 
@@ -358,9 +364,8 @@ a.med-links:visited {
 
 @media (max-width: 1000px) {
     .auth-styles {
-/*        width: 350px;*/
+        /*        width: 350px;*/
     }
-    
     #meditations {
         /*IMAGES MANGEMENT*/
         background-image: url(https://pixabay.com/static/uploads/photo/2016/07/08/12/19/mountain-1504197_960_720.jpg);
@@ -408,11 +413,9 @@ a.med-links:visited {
     #carousel-example-generic {
         display: none;
     }
-    
-    div#playDiv{
+    div#playDiv {
         padding-left: 10px;
     }
-    
     #meditations {
         /*IMAGES MANGEMENT*/
         background-image: url(https://pixabay.com/static/uploads/photo/2016/07/08/12/19/mountain-1504197_960_720.jpg);
