@@ -23,6 +23,13 @@ h2 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+/*    position: absolute;*/
+}
+
+.item {
+    position: absolute;
+    right: 0;
+    left: 0;
 }
 
 
